@@ -1,4 +1,6 @@
-export const ItemsShowcase = ({ items }) => {
+import { ItemsShowcaseProps } from '@homework-task/types/items';
+
+export const ItemsShowcase: React.FC<ItemsShowcaseProps> = ({ items }) => {
     return (
         <div className="flex justify-center items-center">
             <div className="grid grid-cols-2 gap-8 w-8/12">

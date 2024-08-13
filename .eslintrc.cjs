@@ -17,8 +17,13 @@ const config = {
         'plugin:prettier/recommended',
         'prettier',
     ],
-    ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.js'],
-    settings: {react: {version: '18.2'}},
+    ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts'],
+    settings: {
+        react: { version: '18.2' },
+        "import/resolver": {
+            "typescript": {}
+        },
+    },
     parser: '@typescript-eslint/parser',
     plugins: [
         'react-refresh',
