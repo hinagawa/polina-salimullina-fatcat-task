@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "esnext",
+    "module": "esnext",
     "jsx": "react-jsx",
     "noImplicitAny": true,
     "strict": true,
@@ -8,6 +9,7 @@
     "esModuleInterop": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
+    "types": ["node", "vite/client"],
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
@@ -15,5 +17,5 @@
     }
   },
     "exclude": ["node_modules"],
-    "include": ["src/**/*", "src/types/**/*.d.ts"]
+    "include": ["src/**/*", "src/types/**/*.d.ts", "vite-env.d.ts"]
 }

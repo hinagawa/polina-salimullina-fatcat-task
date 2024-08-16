@@ -39,7 +39,7 @@ export const Card: React.FC<CardProps> = ({ title, text, link }) => (
             )}
         >
             Read more
-            <img src="/media/landing/arrow-purple.svg" alt="" />
+            <img src="/media/landing/arrow-purple.svg" alt="Purple arrow" />
         </a>
     </div>
 );

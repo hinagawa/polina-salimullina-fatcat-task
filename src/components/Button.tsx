@@ -6,6 +6,8 @@ export const Button: React.FC<ButtonProps> = ({
     children,
     onClick,
     className,
+    type,
+    disabled,
 }) => {
     return (
         <button
@@ -17,6 +19,8 @@ export const Button: React.FC<ButtonProps> = ({
                 'text-white',
                 className
             )}
+            type={type}
+            disabled={disabled}
             onClick={onClick}
         >
             {children}

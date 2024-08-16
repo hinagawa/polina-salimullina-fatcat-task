@@ -70,22 +70,40 @@ export const Landing = () => {
                 <p className={clsx('text-gray80', 'text-2xl')}>
                     Don&#39;t hesitate to connect if you have any questions.
                 </p>
-                <a
-                    className={clsx(
-                        'flex',
-                        'items-center',
-                        'gap-2',
-                        'rounded-lg',
-                        'px-4',
-                        'py-2',
-                        'bg-black',
-                        'text-white'
-                    )}
-                    href={vscodeProjectLink}
-                >
-                    <span className={clsx('text-lg')}>Read docs</span>
-                    <img src="/media/landing/arrow.svg" alt="" />
-                </a>
+                <div className={clsx('flex', 'flex-row', 'gap-5')}>
+                    <a
+                        className={clsx(
+                            'flex',
+                            'items-center',
+                            'gap-2',
+                            'rounded-lg',
+                            'px-4',
+                            'py-2',
+                            'bg-black',
+                            'text-white'
+                        )}
+                        href={vscodeProjectLink}
+                    >
+                        <span className={clsx('text-lg')}>Read docs</span>
+                        <img src="/media/landing/arrow.svg" alt="Arrow icon" />
+                    </a>
+                    <a
+                        className={clsx(
+                            'flex',
+                            'items-center',
+                            'gap-2',
+                            'rounded-lg',
+                            'px-4',
+                            'py-2',
+                            'bg-[#5c62f9]',
+                            'text-white'
+                        )}
+                        href={'/task'}
+                    >
+                        <span className={clsx('text-lg')}>Check tasks</span>
+                        <img src="/media/landing/arrow.svg" alt="Arrow icon" />
+                    </a>
+                </div>
             </div>
             <img
                 className={clsx(
@@ -96,7 +114,7 @@ export const Landing = () => {
                     'justify-self-center'
                 )}
                 src="/media/landing/hero.svg"
-                alt=""
+                alt="Hero icon"
             />
             <div
                 className={clsx(
