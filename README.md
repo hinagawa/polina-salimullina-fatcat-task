@@ -21,7 +21,7 @@
     - Created a form with two fields:
       - Input Field (`title`)
       - Textarea Field (`body`)
-    - Both fields display error messages when the input does not meet the criteria specified by the validation schema.
+      Both fields display error messages when the input does not meet the criteria specified by the validation schema.
 
 - [x] Create a Page Generator Component
 - Dynamic Layout Handling: The component handles different page layouts based on provided data.
@@ -31,7 +31,7 @@
 ## How to run project
 
 1. **Clone the repository**
-   ``` git clonegit@github.com:hinagawa/polina-salimullina-fatcat-task.git ```
+   ``` git clone git@github.com:hinagawa/polina-salimullina-fatcat-task.git ```
 
 2. **Install dependencies**
    ``` npm install ```
